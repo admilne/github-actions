@@ -19,5 +19,5 @@ jobs:
       - name: Run build and test in parallel
         run: | 
           npm test &
-          npm build &
+          npm run build &
           wait
